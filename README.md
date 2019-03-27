@@ -1,84 +1,110 @@
 
 ## 常用的文件命名
 
-src，source
-源代码，用src居多
+`src`，`source`
 
-test，__tests__
-测试文件，也经常用__test__，facebook的测试框架jest默认的测试文件目录就是__test__
+源代码，用 src 居多
 
-docs
+`test`，`__tests__`  
+
+测试文件，也经常用__test__，facebook 的测试框架 jest 默认的测试文件目录就是__test__
+
+`docs`  
+
 文档
 
-lib
-库文件，library的缩写
+`lib`  
 
-dist
-用来放打包编译后的文件，应该是distribution的缩写
+库文件，library 的缩写
 
-build，scripts
+`dist`  
+
+用来放打包编译后的文件，应该是 distribution 的缩写
+
+`build`，`scripts`  
+
 构建脚本
 
-utils，tools，helpers
+`utils`，`tools`，`helpers`  
+
 工具代码
 
-controllers，views，middlewares，models
-MVC对应的models，views，controllers，还有中间件middlewares
+`controllers`，`views`，`middlewares`，`models`  
 
-router
+MVC 对应的 models，views，controllers，还有中间件 middlewares
+
+`router`  
+
 路由
 
-server
+`server`  
+
 用来放服务端代码
 
-adapters
+`adapters`  
+
 适配器，适配器模式是一种很常用的设计模式
 
 
-legacy
+`legacy`  
+
 一般用来放兼容历史版本或兼容旧浏览器的代码
 
 
-config
+`config`  
+
 配置文件
 
-benchmarks
+`benchmarks`  
+
 benchmarks测试，又叫基准测试或性能测试。用来测试版本的性能变化
 
-unit，spec
-单元测试，一般在test目录下
+`unit`，`spec`  
 
-e2e
-端对端测试，一般在test目录下
+单元测试，一般在 test 目录下
 
-assets，vendor
-资源，一般用来放图片或css文件
+`e2e`  
 
-static
+端对端测试，一般在 test 目录下
+
+`assets`，`vendor`  
+
+资源，一般用来放图片或 css 文件
+
+`static`  
+
 静态资源
 
-examples，demo
+`examples`，`demo`  
+
 示例
 
-component
+`component`  
+
 组件
 
-plugins
+`plugins`  
+
 插件
 
-bin
+`bin`  
+
 命令脚本，命令行工具经常会用到
 
-common
+`common`  
+
 公用的文件
 
-packages
-很多项目会打包出多个npm包，用来减小体积，一般会用packages来放不同的包
+`packages`  
 
-misc
-杂项，miscellaneous的缩写
+很多项目会打包出多个 npm 包，用来减小体积，一般会用 packages 来放不同的包
 
-core
+`misc`  
+
+杂项，miscellaneous 的缩写
+
+`core`  
+
 核心文件
 
 * [JS函数命名规范](function.md)
