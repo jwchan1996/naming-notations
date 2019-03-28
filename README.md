@@ -17,6 +17,10 @@
 
 库文件，library 的缩写
 
+`vendor` 
+
+一般存放第三方库文件
+
 `dist`  
 
 用来放打包编译后的文件，应该是 distribution 的缩写
@@ -67,7 +71,7 @@ benchmarks测试，又叫基准测试或性能测试。用来测试版本的性�
 
 端对端测试，一般在 test 目录下
 
-`assets`，`vendor`  
+`assets` 
 
 资源，一般用来放图片或 css 文件
 
